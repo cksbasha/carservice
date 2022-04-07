@@ -6,7 +6,7 @@ pipeline {
     FE_SVC_NAME = "${APP_NAME}-cart"
     CLUSTER = "way2die"
     CLUSTER_ZONE = "us-east4-b"
-    IMAGE_TAG = "gcr.io/${PROJECT}/${APP_NAME}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
+    IMAGE_TAG = "gcr.io/${PROJECT}/${APP_NAME}"
     JENKINS_CRED = "${PROJECT}"
   }
 
